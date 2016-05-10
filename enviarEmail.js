@@ -8,4 +8,3 @@ function onFormSubmit(e) {
                     "Hora de envio: " + timestamp;
     MailApp.sendEmail(toAddress, subject, emailBody);
 }
-

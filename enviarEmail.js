@@ -1,6 +1,6 @@
 function onFormSubmit(e) {
 	
-    var toAddress = "destinoo@servidor.com.br";
+    var toAddress = "destino@servidor.com.br";
     var timestamp = e.values[0];
     var answer = e.values[1];
     var subject = "New answer";
